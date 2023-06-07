@@ -1,0 +1,19 @@
+name: aws-ivs-client
+version: 0.1.0
+
+authors:
+  - JoystickTV <support@joystick.tv>
+
+crystal: 1.8.2
+
+license: MIT
+
+dependencies:
+  awscr-signer:
+    github: taylorfinnell/awscr-signer
+  habitat:
+    github: luckyframework/habitat
+
+development_dependencies:
+  ameba:
+    github: crystal-ameba/ameba
